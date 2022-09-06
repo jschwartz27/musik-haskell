@@ -2,9 +2,9 @@ name:                musik-haskell
 version:             0.1.0.0
 github:              "githubuser/musik-haskell"
 license:             BSD3
-author:              "Author name here"
+author:              "Eli Schwarzenstein"
 maintainer:          "example@example.com"
-copyright:           "2022 Author name here"
+copyright:           "2022 Schwarzenstein"
 
 extra-source-files:
 - README.md
@@ -23,6 +23,8 @@ dependencies:
 - base >= 4.7 && < 5
 - random
 - aeson
+- bytestring
+# - binary
 
 ghc-options:
 - -Wall
